@@ -5,13 +5,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "build":"gh-pages -d public"
   },
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "gh-pages": "^2.2.0"
+
   }
 }
